@@ -147,7 +147,7 @@ header nav ul li a:hover {
 }
 
 
-.donate-section h3 {
+.donate-section h3, .plan-section h3 {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 45px;
@@ -172,8 +172,6 @@ header nav ul li a:hover {
     border: 1px solid #FF5959;
     border-radius: 5px;
 }
-.amounts {
-}
 
 .amounts p {
     font-weight: 700;
@@ -195,4 +193,63 @@ header nav ul li a:hover {
     width: 200px;
     height: 45px;
     text-align: center;
+}
+
+/* Planning CSS */
+
+.plan-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 78%;
+}
+
+.plan-section > p {
+    text-align: center;
+    margin: 0 75px 50px 75px;
+    
+}
+
+
+.planning-segment1, .planning-segment2, .planning-segment3 {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.planning-segment1 img, .planning-segment2 img, .planning-segment3 img {
+    margin-bottom: 30px;
+}
+
+.planning-segment1 h5, .planning-segment2 h5, .planning-segment3 h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.planning-segment1 p, .planning-segment2 p, .planning-segment3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.plans {
+    display: flex;
+    gap: 25px;
+  }
+
+.planning-segment1 {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+  .planning-segment2 {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+  .planning-segment3 {
+    background: rgb(255, 244, 214);
+    border-radius: 5px;
 }
