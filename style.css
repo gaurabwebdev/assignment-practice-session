@@ -290,9 +290,13 @@ header nav ul li a:hover {
     gap: 75px;
 }
 
+.card-item-2 div {
+    text-align: right;
+}
+
 .card-item-1 div img, .card-item-2 div img {
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: 360px;
     border-radius: 5px;
 }
 
@@ -303,6 +307,8 @@ header nav ul li a:hover {
     color: #121212;
     margin-bottom: 20px;
 }
+
+
 
 .card-item-1 div p, .card-item-2 div p, .subscribe-section p {
     font-weight: 400;
@@ -379,6 +385,109 @@ footer h2 {
 footer p {
     color: #fdfdfd;
 }
+
+
+/* Media Query CSS */
+/* Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+    .banner-content h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .card-item-1 div h3, .card-item-2 div h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .donate-section h3, .plan-section h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .subscribe-section h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .header-content {
+        padding: 10px 5px;
+    }
+
+    .banner-content h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner-content p, .donate-section > p, .plan-section > p, .card-item-1 div p, .card-item-2 div p, .subscribe-section p, footer p{
+        font-size: 16px;
+    }
+
+    .plans {
+        flex-direction: column;
+        padding: 0 150px;
+    }
+
+
+    .card-item-1 div img, .card-item-2 div img {
+        width: 275px;
+        height: 275px;
+        border-radius: 5px;
+    }
+
+    .primary-btn {
+        padding: 10px;
+        font-size: 16px !important;
+    }
+
+    .prices {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .amounts {
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .amounts p {
+        font-size: 20px;
+    }
+
+    .card-item-1 div h3, .card-item-2 div h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .subscribe-section h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    footer h2 {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {...}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {...}
 
 
 
